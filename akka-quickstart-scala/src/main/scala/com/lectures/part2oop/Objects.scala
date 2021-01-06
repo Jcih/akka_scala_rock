@@ -11,7 +11,7 @@ object Objects extends App {
     def apply(mom: String, dad: String): Person = new Person("Bobbie")
   }
   class Person (val name: String) {
-    //instance-level fuunctionality
+    //instance-level functionality
   }
   //COMPANIONS
 
