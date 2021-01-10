@@ -28,7 +28,15 @@ object Exceptions extends App {
     //code that will get executed no matter what
     println("finally")
   }
-  
+
+  //how to define your own exceptions
+  class MyException extends Exception
+  val exception = new MyException
+
+  //throw exception
+
+  //throw new OutOfMemoryError("Out of Memorry")
+  throw new StackOverflowError("StackOverFlow")
 
 
 }
